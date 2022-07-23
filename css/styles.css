@@ -84,7 +84,7 @@ header .link:hover, header .link:focus{
     color: var(--accent-color);
 }
 
-.header-contacts.list{ 
+.header-contacts{ 
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -93,20 +93,11 @@ header .link:hover, header .link:focus{
 .header-contacts li:first-child{margin-right: 50px;}
 
 .header-contacts-link{display: flex;
-    align-items: center;
-} 
+    align-items: center;}
+
 .icon-envelope{
     margin-right: 10px;
     fill: currentColor;
-    width: 16px;
-    height: 12px;
-
-}
-.icon-smartphone{
-    margin-right: 10px;
-    fill: currentColor;
-    width: 10px;
-    height: 16px;
 }
 
 /* main */
