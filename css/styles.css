@@ -271,6 +271,8 @@ header .link:hover, header .link:focus{
 }
 .our-clients-bg{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -280,10 +282,10 @@ header .link:hover, header .link:focus{
 .our-clients-logo{
     fill: #AFB1B8;
 }
-.icon-logo1{
+/* .icon-logo1{
     width: 41px;
     height: 46px;
-}
+} */
 .our-clients-bg:hover .our-clients-logo, .our-clients-bg:focus .our-clients-logo{
     fill:var(--accent-color);
     border: 1px solid var(--accent-color);
@@ -358,7 +360,8 @@ address {
     background-color: var(--accent-color);
 }
 
-/* сторінка портфоліо */
+/* --------СТОРІНКА ПОРТФОЛІО ------------*/
+
 /* кнопки фільтра */
 .header-border {
     border-bottom: 1px solid #ECECEC;
@@ -394,15 +397,12 @@ address {
     flex-wrap: wrap;
     gap: 30px;
 }
-.examples-cards{
-    flex-basis: calc((100% - 60px) / 3);
-    }
-    /* width: 370px;} */
-    /* margin-right: 30px;
-    margin-bottom: 30px;
-} */
-/* .examples-cards:nth-child(3n) {margin-right: 0;}
-.examples-cards:n     */
+
+.examples-cards:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);}
+
 .examples-description {
     display: block;
     padding: 20px 24px;
